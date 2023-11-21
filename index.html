@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Quote-Generator">
+        <meta name="author" content="Mitiny-Mitiny">
+        <meta name="keywords" content="HTML, CSS, Javascript, Quotes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quote-Generator</title>
+        <link rel="stylesheet" href="mystyle.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>
+                <i class="fas fa-quote-left"></i>
+                <span class="quote" id="quote">Genius is one percent inspiration and ninety-nine percent perspiration</span>
+                <i class="fas fa-quote-right"></i>
+            </h1>
+
+            <p class="author" id="author"></p>
+
+            <hr>
+
+            <div class="buttons">
+                <a class="twitter" id="tweet" data-size="large" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <button class="next" onclick="getNewQuote()">Next Quote</button>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
